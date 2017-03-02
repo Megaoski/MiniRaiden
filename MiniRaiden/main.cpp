@@ -17,15 +17,33 @@ int main(int argc, char* args[])
 
 	SDL_Rect r;
 
-	for (;;)
+	bool run = true;
+	while(run)
 	{
+
+	for (;;)
+	 {
+		//Input
+		SDL_Event event;
+		while (SDL_PollEvent(&event))
+		{
+			if (event.type == SDL_QUIT)
+				run = false;
+
+			switch (event.type)
+			{
+
+			}
+		}
+
+		//Graphics
 
 		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255); //pinta la pantalla de negro
 		SDL_RenderClear(renderer);
 
 		SDL_RenderCopy(renderer, title, NULL, NULL);
 		r = { 0, 0, 84, 320 };
-		SDL_RenderCopy(renderer, nave, NULL, &r);
+		SDL_RenderCopy(renderer, nave, NULL, &r); // pintamos nave en la pantalla, la primera null es la imagen completa y la segunda null en este caso  en r, unas coordenadas especificas para mostrar en pantalla la nave
 
 
 		SDL_RenderPresent(renderer);
