@@ -69,8 +69,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\x86;C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\x86;$(ProjectDir)SDL\libx86;~$;C:\Users\oscarll3\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\libx86\x86;C:\Users\oscarll3\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\libx86;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\oscarll3\Desktop\sdl\SDL2-2.0.5\lib\x86;C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\x86;C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\x86;$(ProjectDir)SDL\libx86;~$;C:\Users\oscarll3\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\libx86\x86;C:\Users\oscarll3\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\libx86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\oscarll3\Desktop\sdl\SDL2-2.0.5\include;C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LibraryPath>C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\x86;C:\Users\Usuario\Documents\GitHub\MiniRaiden\MiniRaiden\x86;$(ProjectDir)SDL\libx86;~$;C:\Users\oscarll3\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\libx86\x86;C:\Users\oscarll3\Documents\GitHub\MiniRaiden\MiniRaiden\SDL\libx86;$(LibraryPath)</LibraryPath>
